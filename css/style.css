@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 0;
 }
 
 img {
@@ -28,6 +29,19 @@ img {
     background-color: aliceblue;
 }
 
+h1, h2 {
+    font-size: 3rem;
+    padding: 20px 0;
+}
+
+h2, h3, .brands i {
+    font-size: 2rem;
+}
+
+p, li {
+    font-size: 1.2rem;
+}
+
 .large {
     padding: 15px;
 }
@@ -38,6 +52,10 @@ img {
 
 .text-white {
     color: white;
+}
+
+.text-blue {
+    color: #7289DA;
 }
 
 .blue {
@@ -71,14 +89,6 @@ img {
     /* padding: 0 10px; */
 }
 
-h1, h2 {
-    font-size: 3rem;
-    padding: 20px 0;
-}
-
-p {
-    font-size: 1.2rem;
-}
 
 .pink-rect p {
     padding: 0 0 30px 0px;
@@ -121,10 +131,6 @@ p {
 
 
 /* MAIN */
-.small {
-    /* debug */
-    height: 500px;
-}
 
 .blue-pink-container {
     display: flex;
@@ -169,7 +175,6 @@ p {
 }
 
 .green-item h3 {
-    font-size: 2rem;
     margin-bottom: 50px;
 }
 
@@ -177,7 +182,6 @@ p {
 .section-black {
     background-color: #23272A;
     padding-bottom: 20px;
-    border-bottom: 1px solid white;
 }
 
 .footer-container {
@@ -188,14 +192,15 @@ p {
 }
 
 .footer-item-grow {
-    background-color: #F08080;
-    flex-grow: 2;
-    border: 1px dashed black;
+    padding: 50px;
+    /* flex-grow: 2; */
+    /* background-color: #F08080; */
+    /* border: 1px dashed black; */
 }
 
 .footer-item {
-    border: 1px dashed white;
-    background-color: #1E90FF;
+    /* border: 1px dashed white; */
+    /* background-color: #1E90FF; */
     flex-grow: 1;
     
 }
@@ -205,21 +210,53 @@ p {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    padding: 100px 0;
     /* debug */
-    height: 100px;
+    /* height: 100px; */
 }
 
 .footer-container-celestial {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7FFFD4;
+    border-top: 1px solid #7289DA;
+    margin-bottom: 50px;
     /* debug */
+    /* background-color: #7FFFD4; */
     width: 80%;
     height: 80px;
 }
 
-.footer-logo, .footer-button {
+/* .footer-logo, .footer-button {
     padding: 5px;
     border-style: dashed;
+} */
+
+.footer-item-grow img {
+    width: 2rem;
+}
+
+.footer-item-grow h3, .brands {
+    margin: 10px 0;
+}
+
+.brands i {
+    margin-right: 25px;
+}
+
+.footer-item ul {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.footer-item ul li {
+    padding: 10px 0;
+}
+.footer-item ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-logo img {
+    width: 15%;
 }
