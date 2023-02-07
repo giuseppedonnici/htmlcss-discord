@@ -40,6 +40,10 @@ img {
     color: white;
 }
 
+.blue {
+    background-color: #7289DA;
+}
+
 /* HEADER */
 .nav-container {
     display: flex;
@@ -122,11 +126,6 @@ p {
     height: 500px;
 }
 
-.large {
-    /* debug */
-    height: 700px;
-}
-
 .blue-pink-container {
     display: flex;
     width: 80%;
@@ -152,18 +151,26 @@ p {
 
 .section-grey {
     background-color: lightgrey;
-    
+    text-align: center
 }
 
+.section-grey.large p {
+    padding: 0 250px;
+}
 .section-grey.small .blue-pink-container {
     flex-direction: row-reverse;
 }
 
 .green-item {
-    background-color: #228B22;
-    /* debug */
     width: 80%;
-    height: 600px;
+    /* debug */
+    /* background-color: #228B22; */
+    /* height: 600px; */
+}
+
+.green-item h3 {
+    font-size: 2rem;
+    margin-bottom: 50px;
 }
 
 /* FOOTER */
